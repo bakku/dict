@@ -4,8 +4,21 @@ A small clojure application to translate words via command line.
 
 ## Installation
 
+```
+git clone git@github.com:bakku/dict.git
+lein uberjar
+```
+
 ## Usage
 
-## Options
+```
+$ java -jar dict.jar Pragmatisch
 
-## Examples
+|            english |      german |
+|--------------------+-------------|
+|          pragmatic | pragmatisch |
+|          practical | pragmatisch |
+|      pragmatically | pragmatisch |
+|        pragmatical | pragmatisch |
+| hard-nosed [coll.] | pragmatisch |
+```
