@@ -1,4 +1,4 @@
-(defproject dict "0.1.0-RELEASE"
+(defproject dict "0.1.1-RELEASE"
   :description "dict is a small application that translates german words to english words"
   :url "https://github.com/bakku/dict"
   :license {:name "MIT"
